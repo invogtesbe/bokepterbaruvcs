@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://bokepterbaruvcs.pages.dev/sitemap.xml
