@@ -27,7 +27,7 @@ export const GET: APIRoute = async ({ site }) => {
       return;
     }
 
-    const videoDetailUrl = `${baseUrl}/${slugify(video.title)}-${video.id}/`;
+    const videoDetailUrl = `${baseUrl}/video/${video.id}/${slugify(video.title)}`;
     const thumbnailUrl = video.thumbnail;
     const embedUrl = video.embedUrl;
 
